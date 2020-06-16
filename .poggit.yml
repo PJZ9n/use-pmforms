@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PJZ9n/use-pmforms
+build-by-default: true
+branches:
+  - master
+projects:
+  use-pmforms:
+    libs:
+      - src: dktapps-pm-pl/pmforms/pmforms
+...
